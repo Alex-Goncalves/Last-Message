@@ -7,16 +7,29 @@
     <title>Last Message Recorder</title>
 </head>
 <body>
+    <section class="main-container">
 
-    <div class="square">
-        <h2 id="title">Enter your message!</h2>
-        <form>
-            <label>
-                <input type="text" id="message">
-            </label><br>
-            <input type="button" id="button"  value="Submit!" onclick="submitText()">
-        </form>
-        <h2 id="lastMessage">Last Message: Hello World</h2>
-    </div>
+        <div class="container" id="container-left">
+            <h2 id="title">Enter your message!</h2>
+            <form>
+                <label>
+                    <input type="text" id="message" placeholder="Insert Message" required>
+                </label><br>
+                <button type="button" id="button" onclick="submitText()">Submit</button>
+            </form>
+            <h2 id="lastMessage">Last Message: Hello World</h2>
+        </div>
+
+        <div class="container" id="container-right">
+            <button class="buttons" onclick="bold()">BOLD</button>
+            <button class="buttons"></button>
+            <button class="buttons"></button>
+            <button class="buttons"></button>
+            <button class="buttons"></button>
+
+        </div>
+
+    </section>
+
 </body>
 </html>
