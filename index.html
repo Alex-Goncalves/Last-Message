@@ -7,31 +7,29 @@
     <title>Last Message Recorder</title>
 </head>
 <body>
-    <section class="main-container">
+<section class="main-container">
 
-        <div class="container" id="container-left">
-            <h2 id="title">Enter your message!</h2>
-            <form>
-                <label>
-                    <input type="text" id="message" placeholder="Insert Message" required>
-                </label><br>
-                <button type="button" id="button" onclick="submitText()">Submit</button>
-            </form>
-            <h2 id="lastMessageText">Last Message: </h2>
-            <h2 id="lastMessage">Hello World</h2>
-        </div>
+    <div class="container" id="container-left">
+        <h2 id="title">Enter your message!</h2>
+        <form>
+            <label>
+                <input type="text" id="message" placeholder="Insert Message" required>
+            </label><br>
+            <button type="button" id="button" onclick="submitText()">Submit</button>
+        </form>
+        <h2 id="lastMessageText">Last Message: </h2>
+        <h2 id="lastMessage">Hello World</h2>
+    </div>
 
-        <div class="container" id="container-middle">
-            <button class="buttons" onclick="italic()">ITALIC</button>
-            <button class="buttons" onclick="smaller()">SMALLER</button>
-            <button class="buttons" onclick="bigger()">BIGGER</button>
-            <button class="buttons" onclick="color()">COLOR</button>
-            <button class="buttons" onclick="initial()">INITIAL</button>
-        </div>
+    <div class="container" id="container-right">
+        <button class="buttons" onclick="italic()">ITALIC</button>
+        <button class="buttons" onclick="smaller()">SMALLER</button>
+        <button class="buttons" onclick="bigger()">BIGGER</button>
+        <button class="buttons" onclick="color()">COLOR</button>
+        <button class="buttons" onclick="initial()">INITIAL</button>
+    </div>
 
-        <div class="container" id="container-right"></div>
-
-    </section>
+</section>
 
 </body>
 </html>

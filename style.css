@@ -8,7 +8,7 @@ body{
     margin-right: auto;
     text-align: center;
     height: 255px;
-    width: 1200px;
+    width: 900px;
 }
 
 .container{
@@ -18,18 +18,12 @@ body{
 }
 
 #container-left{
-    width: 60%;
-    float: left;
-}
-
-#container-middle{
-    width: 15%;
+    width: 75%;
     float: left;
 }
 
 #container-right{
-    width: 23.5%;
-    float: left;
+    margin-left: 25%;
 }
 
 #title{
@@ -58,6 +52,7 @@ body{
     display: inline-block;
     width: 25%;
     border: none;
+    box-shadow: none;
 }
 
 #lastMessageText{
